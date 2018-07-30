@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="653f9ba3-c4e1-4691-bf3b-f2e5d394a852" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../Bramble/src/com/bramble/BrambleLanuch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bramble/src/com/bramble/BrambleMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bramble/src/com/bramble/collector/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bramble/src/com/bramble/io/FileWrite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bramble/src/com/bramble/jvminfo/CpuTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bramble/src/com/bramble/jvminfo/Mem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bramble/src/com/bramble/jvminfo/StackForSampler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bramble/src/com/bramble/utils/DataTransform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bramble/src/com/bramble/utils/FlowMsgFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bramble/src/com/bramble/utils/GsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bramble/src/com/bramble/utils/KafkaUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bramble/src/com/bramble/utils/MsgFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bramble/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bramble/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../Bramble/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,8 +58,8 @@
       <file leaf-file-name="FlowMsgFormat.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Bramble/src/com/bramble/utils/FlowMsgFormat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="323">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -127,6 +116,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Bramble/src/com/bramble" />
   </component>
   <component name="IdeDocumentHistory">
@@ -144,8 +134,8 @@
         <option value="$PROJECT_DIR$/../Bramble/src/com/bramble/collector/Producer.java" />
         <option value="$PROJECT_DIR$/../Bramble/src/com/bramble/collector/Consumer.java" />
         <option value="$PROJECT_DIR$/../Bramble/src/com/bramble/BrambleMain.java" />
-        <option value="$PROJECT_DIR$/../Bramble/src/com/bramble/utils/FlowMsgFormat.java" />
         <option value="$PROJECT_DIR$/../Bramble/src/com/bramble/utils/DataTransform.java" />
+        <option value="$PROJECT_DIR$/../Bramble/src/com/bramble/utils/FlowMsgFormat.java" />
       </list>
     </option>
   </component>
@@ -256,7 +246,7 @@
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="FlowMsgFormat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="FlowMsgFormat" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bramble.utils.FlowMsgFormat" />
       <module name="Bramble" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -322,11 +312,6 @@
       <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.FlowMsgFormat" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -338,7 +323,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532953781267</updated>
-      <workItem from="1532953784235" duration="2314000" />
+      <workItem from="1532953784235" duration="3004000" />
     </task>
     <task id="LOCAL-00001" summary="TEST 1">
       <created>1532962382961</created>
@@ -347,19 +332,32 @@
       <option name="project" value="LOCAL" />
       <updated>1532962382961</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="TEST 1">
+      <created>1532962544114</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1532962544114</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Test 2">
+      <created>1532963061456</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1532963061456</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2314000" />
+    <option name="totallyTimeSpent" value="3004000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Messages" order="4" visible="true" weight="0.32919955" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32919955" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
@@ -367,7 +365,7 @@
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.3294621" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="7" weight="0.32930845" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="3" visible="true" weight="0.32919955" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
@@ -395,7 +393,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TEST 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="TEST 1" />
+    <MESSAGE value="Test 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test 2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../Bramble/src/com/bramble/io/FileWrite.java">
@@ -467,8 +466,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Bramble/src/com/bramble/utils/FlowMsgFormat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="323">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
     </entry>
