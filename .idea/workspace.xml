@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="653f9ba3-c4e1-4691-bf3b-f2e5d394a852" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../Bramble/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bramble/src/com/bramble/collector/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bramble/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bramble/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bramble/src/com/bramble/BrambleLanuch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bramble/src/com/bramble/BrambleMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bramble/src/com/bramble/collector/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bramble/src/com/bramble/io/FileWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bramble/src/com/bramble/jvminfo/CpuTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bramble/src/com/bramble/jvminfo/Mem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bramble/src/com/bramble/jvminfo/StackForSampler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bramble/src/com/bramble/utils/DataTransform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bramble/src/com/bramble/utils/FlowMsgFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bramble/src/com/bramble/utils/GsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bramble/src/com/bramble/utils/KafkaUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bramble/src/com/bramble/utils/MsgFormat.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../Bramble/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KafkaUtil.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KafkaUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Bramble/src/com/bramble/utils/KafkaUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
@@ -57,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlowMsgFormat.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FlowMsgFormat.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Bramble/src/com/bramble/utils/FlowMsgFormat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="342">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -329,15 +338,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532953781267</updated>
-      <workItem from="1532953784235" duration="1998000" />
+      <workItem from="1532953784235" duration="2314000" />
     </task>
+    <task id="LOCAL-00001" summary="TEST 1">
+      <created>1532962382961</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1532962382961</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1998000" />
+    <option name="totallyTimeSpent" value="2314000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="108" y="138" width="1696" height="1026" extended-state="0" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
@@ -375,6 +392,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="TEST 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="TEST 1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../Bramble/src/com/bramble/io/FileWrite.java">
@@ -423,13 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Bramble/src/com/bramble/utils/FlowMsgFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Bramble/src/com/bramble/collector/Producer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -451,6 +465,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Bramble/src/com/bramble/utils/FlowMsgFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -468,7 +489,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
