@@ -1,11 +1,3 @@
-/**
- * Project Name:Zprofiler
- * File Name:FlowMsgFormat.java
- * Package Name:com.zprofiler.utils
- * Date:2018��7��19������3:53:12
- * Copyright (c) 2018, 359736592@qq.com All Rights Reserved.
- *
-*/
 
 package com.bramble.utils;
 
