@@ -1,19 +1,3 @@
-/**
- * Project Name:Zprofiler
- * File Name:CpuTime.java
- * Package Name:com.zprofiler.jvminfo
- * Date:2018年7月23日上午11:16:43
- * Copyright (c) 2018, 359736592@qq.com All Rights Reserved.
- *
-*/
-/**
- * Project Name:Zprofiler
- * File Name:CpuTime.java
- * Package Name:com.zprofiler.jvminfo
- * Date:2018年7月23日上午11:16:43
- * Copyright (c) 2018, 359736592@qq.com All Rights Reserved.
- *
- */
 
 package com.bramble.jvminfo;
 /**
