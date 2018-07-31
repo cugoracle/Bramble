@@ -13,6 +13,6 @@ public class FlowMsgFormat implements MsgFormat {
 
 	public static void main(String[] args) {
 		FlowMsgFormat fm = new FlowMsgFormat();
-		System.out.println(fm.writeMsgFormatForStack("15742345732", "1", "->", "Object.WriteMsgsFormat"));
+		System.out.println(fm.writeMsgFormatForStack("15742345732", "111", "->", "Object.WriteMsgsFormat"));
 	}
 }
