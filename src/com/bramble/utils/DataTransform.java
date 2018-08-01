@@ -2,7 +2,8 @@
 
 package com.bramble.utils;
 
-public interface DataTransform {
+
+public abstract class DataTransform {
 	
 	
 
