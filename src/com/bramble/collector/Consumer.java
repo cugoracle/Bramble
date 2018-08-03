@@ -2,6 +2,9 @@
 
 
 package com.bramble.collector;
+
+import java.util.concurrent.LinkedBlockingQueue;
+
 /**
  * ClassName:Consumer <br/>
  * Function: TODO ADD FUNCTION. <br/>
@@ -12,6 +15,11 @@ package com.bramble.collector;
  * @since    JDK 1.8
  * @see 	 
  */
-public abstract class Consumer implements Runnable {
 
+public abstract class Consumer implements Runnable {
+    private LinkedBlockingQueue queue;
+
+    public Consumer(LinkedBlockingQueue queue) {
+        this.queue = queue;
+    }
 }

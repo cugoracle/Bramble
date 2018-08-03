@@ -1,6 +1,9 @@
 
 
 package com.bramble.collector;
+
+import java.util.concurrent.LinkedBlockingQueue;
+
 /**
  * ClassName:Producer <br/>
  * Function: TODO ADD FUNCTION. <br/>
@@ -13,6 +16,6 @@ package com.bramble.collector;
  */
 public abstract class Producer implements Runnable {
 
-
+    private LinkedBlockingQueue queue;
 
 }
