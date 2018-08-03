@@ -19,10 +19,6 @@ public class StackForSampler {
 		this.mf = mf;
 	}
 	/**
-
-	 +
-
-
 	 TODO(这里用一句话描述这个方法的作用)
 	 * @param: @param timestamp 采集时间戳
 	 * @param: @param ThreadId 线程ID号       
