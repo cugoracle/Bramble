@@ -2,7 +2,6 @@
 
 package com.bramble.collector;
 
-import java.util.concurrent.LinkedBlockingQueue;
 
 /**
  * ClassName:Producer <br/>
@@ -15,8 +14,6 @@ import java.util.concurrent.LinkedBlockingQueue;
  * @see 	 
  */
 public abstract class Producer implements Runnable {
-
-    private LinkedBlockingQueue queue;
 
 
 }

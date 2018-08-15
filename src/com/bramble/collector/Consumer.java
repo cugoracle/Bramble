@@ -19,11 +19,5 @@ import java.util.concurrent.LinkedBlockingQueue;
  */
 
 public abstract class Consumer implements Runnable {
-    private LinkedBlockingQueue queue;
-    private MsgFormat mf;
 
-    public Consumer(LinkedBlockingQueue queue) {
-        this.queue = queue;
-
-    }
 }

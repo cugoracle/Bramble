@@ -6,6 +6,9 @@ import java.util.List;
 import com.bramble.utils.MsgFormat;
 
 
+/**
+ *
+ */
 public class StackForSampler {
 	
 	private MsgFormat mf;
@@ -17,6 +20,38 @@ public class StackForSampler {
 	public StackForSampler(MsgFormat mf) {
 		super();
 		this.mf = mf;
+	}
+
+	/**
+	 * 判断是否前后堆栈长度相同
+	 * @param beforeLength
+	 * @param afterLength
+	 * @return
+	 */
+	Boolean isEqual(int beforeLength,int afterLength){
+		if(beforeLength == afterLength){
+			return true;
+		}
+		else{return false;
+
+		}
+
+	}
+
+	/**
+	 *
+	 * @param beforeLength
+	 * @param afterLength
+	 * @return
+	 */
+	Boolean isBefore(int beforeLength,int afterLength){
+		if(beforeLength > afterLength){
+			return true;
+		}
+		else{return false;
+
+		}
+
 	}
 	/**
 	 TODO(这里用一句话描述这个方法的作用)
@@ -32,7 +67,7 @@ public class StackForSampler {
 		int beforeLength = beforeStackInfo.size();
 		int afterLength = afterStackInfo.size();
 		StringBuffer sb = new StringBuffer();
-		if (beforeLength == afterLength) {
+		if (isEqual(beforeLength,afterLength)){
 			for (int i = beforeLength - 1; i > -1; i--) {
 				String name1 = beforeStackInfo.get(i);
 				String name2 = afterStackInfo.get(i);
@@ -60,7 +95,7 @@ public class StackForSampler {
 			}
 
 		} else {
-			if (beforeLength > afterLength) {
+			if (isBefore(beforeLength,afterLength)) {
 				int diffLength = beforeLength - afterLength;
 				for (int i = 0; i < diffLength; i++) {
 					String outMethodName = beforeStackInfo.get(i);
