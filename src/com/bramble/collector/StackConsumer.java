@@ -40,7 +40,7 @@ public class StackConsumer extends Consumer {
         }
         String threadPath = path+"logs_"+logtime+"_"+threadId+".log";
         File file=new File(threadPath);
-        StringBuffer sb1 = new StringBuffer();
+        StringBuffer sb1sss = new StringBuffer();
 
 
         if(!file.exists())
